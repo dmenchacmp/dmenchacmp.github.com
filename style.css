@@ -1,0 +1,41 @@
+h1, a, p, li{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.header {
+  padding-left: 5%;
+  padding-bottom: 3%;
+  padding-right: 5%;
+}
+.maincontainer ul {
+  list-style: none;
+}
+.maincontainer ul li a {
+  color: #bbc3ce;
+  font-size: 1.25em;
+}
+.maincontainer ul li a:hover {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.leftmenu{
+  padding-left: 7%;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.glyphicon {
+  padding-top: 90%;
+  color: #bbc3ce;
+}
+@media (min-width: 768px) {
+  .header {
+    max-width: 65%;
+  }
+}
